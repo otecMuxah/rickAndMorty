@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct RMEpisiode: Codable {
+    var id: Int
+    var name: String
+    var url: String
+    var created: String
+    var type: String
+    var dimension: String
+    var residents: String
+}
