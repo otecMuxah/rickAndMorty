@@ -7,9 +7,16 @@
 
 import Foundation
 
-struct RMBase: Codable {
+class RMBase {
     var id: Int
     var name: String
     var url: String
     var created: String
+    
+    public init(id: Int, name: String, url: String, created: String) {
+        self.id = id
+        self.name = name
+        self.url = url
+        self.created = created
+    }
 }
